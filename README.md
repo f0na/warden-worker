@@ -65,6 +65,10 @@ wrangler deploy
 
 部署后，把 Workers URL 或自定义域名（例如 `https://warden.2x.nz`）填入 Bitwarden 客户端的“自托管服务器 URL”。
 
+### 5. 账号注册
+- 注册页面 域名/#/signup
+- 密码页面 域名/#/finish-signup?token=fixed-token-to-mock&email=注册的邮箱
+
 ## 客户端使用建议
 
 - 官方安卓如果之前指向过其它自托管地址，建议“删除账号/清缓存后重新添加服务器”，避免 remember token 跨服务端复用导致登录失败。
